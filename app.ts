@@ -68,3 +68,38 @@ console.log(multiplyNumbers(10,3));
 const greet = (friend:string) => console.log("Hello " + friend);
 
 greet("Juan");
+
+const countdown = (start:number = 10 , middle = start / 2) : void => {
+    while(start > 0){
+        start--;
+    }
+    console.log("Done",start,middle);
+};
+
+//countdown(50);
+
+const numbers = [1,2,3,99,-5];
+
+console.log(Math.max(...numbers));
+
+function makeArray(n:number,n2:number,...args: number[]){
+    return args;
+}
+
+console.log(makeArray(1,2,...[5,5,5,5,5,5]));
+console.log(makeArray(1,2,3,4,5));
+const myHobbies = ["Cooking","Sports"];
+const [h1,h2] = myHobbies;
+
+console.log("My hobbies are", h1,h2);
+
+const userData = {userName : "Juan" , age : 27};
+
+const {
+    userName,
+    age
+} = userData;
+
+console.log(userName,age);
+
+const myName = "Juan";
