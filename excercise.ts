@@ -1,4 +1,4 @@
-type Bank = {
+/*type Bank = {
     money: number,
     deposit:(value:number) => void
 };
@@ -24,4 +24,4 @@ let myself:Person = {
  
 myself.bankAccount.deposit(3000);
  
-console.log(myself);
+console.log(myself);*/

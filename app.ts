@@ -1,4 +1,4 @@
-type User = {
+/*type User = {
     dataSource : number[],
     findValue : (n:number) => number[]
 };
@@ -38,7 +38,7 @@ console.log(typeof y);
         break;
     }
     //return 1;
-}*/
+}
 
 let canBeNull : number | null= 12;
 
@@ -103,3 +103,6 @@ const {
 console.log(userName,age);
 
 const myName = "Juan";
+const gretting = `Hello, Im ${myName} Im cool`;
+console.log(gretting);*/
+
